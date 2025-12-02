@@ -3,6 +3,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaCheckCircle, FaStar, FaQuoteLeft } from "react-icons/fa";
 
+
+
 export default function LMSLandingPage() {
   // Animation variants
   const fadeInUp = {

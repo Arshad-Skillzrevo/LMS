@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  allowedDevOrigins: ["192.168.29.124"],
+
   redirects: async () => {
     return [
       {
@@ -10,6 +11,7 @@ const nextConfig = {
       },
     ];
   },
+
   reactCompiler: true,
 };
 
