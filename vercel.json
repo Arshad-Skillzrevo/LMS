@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/dashboard",
+      "destination": "https://tutor.skillzrevo.com/dashboard/",
+      "permanent": true
+    }
+
+  ]
+}
